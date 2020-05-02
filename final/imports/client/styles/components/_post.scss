@@ -1,0 +1,25 @@
+// create a post block (class)
+// create three elements: topic, stats, actions
+
+.post {
+  display: flex;
+//  justify-content: center;  // lets you specify where the elements are positioned
+//  justify-content: space-around;  // even space before, between, and after
+  justify-content: space-between;;  // take leftover space and put it in the middle
+
+}
+
+.post__topic {
+  font-weight: 300;
+  font-size: 1.9rem;
+}
+
+.post__stats {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.post__actions {
+  flex-shrink: 0; // never shrink the item no matter how big the other stuff gets
+}

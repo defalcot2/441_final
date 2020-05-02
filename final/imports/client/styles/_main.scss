@@ -1,0 +1,36 @@
+* { // this is a reset of our margin and padding
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%; // 62.5% of default vaule which is 16
+                    // .625 * 16 = 10px which is our base font size
+                    // basically saying that we want everything to be 10px
+                    // when we use rem we are saying take the rem num and multiply by ten
+                    // i.e., 1.2rem = 1.2*10 = 12px
+}
+body {
+  font-size: 1.6rem;
+  background: grey;
+  font-family: Helvetica, Arial, sans-serif;
+  min-height: 400px;
+  margin-bottom: 50px;
+  padding: 0px;
+  clear: both;
+}
+input, button, select {
+  font-size: 1.4rem;
+}
+h1 {  // this makes h1 a child of .title-bar
+  font-weight: 300;
+  font-size: 2.4rem;  // root em based off of font size of html
+                      // base html is 10px * 2.4 is 24 px header
+}
+
+@import './components/_titleBar.scss';  //  ./ indicates to start in current folder
+@import './components/_wrapper.scss';
+@import './components/_singleItem.scss';
+@import './components/_footer.scss';
+@import './components/_button.scss';
+@import './components/_post.scss';
+@import './components/_form.scss';

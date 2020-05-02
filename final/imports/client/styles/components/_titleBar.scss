@@ -1,0 +1,15 @@
+.title-bar {
+  background-color: lightgrey;
+  color: blue;
+}
+
+
+// using bem, create an author element (class) to be used in titleBar.js
+// set the font size to 1.1rem and font-weight to 300
+// apply the class to imports/ui/TitleBar.js <p>author:
+
+// start with block name in BEM then __modifier
+.title-bar__author {
+  font-size: 1.1rem;
+  font-weight: 300;
+}

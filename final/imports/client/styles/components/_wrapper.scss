@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem; // 500px based off the unit sizing
+  padding: 1.3rem;  // 13px
+  background-color: lightgrey;
+}
+
+.wrapper__right {
+  margin: 0 auto;
+  max-width: 100rem;
+  position: absolute;
+  height: 100%;
+  padding: 10rem;
+  background-color: lightgrey;
+  float: right;
+}

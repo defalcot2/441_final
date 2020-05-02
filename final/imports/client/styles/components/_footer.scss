@@ -1,0 +1,14 @@
+.footer {
+  background-color: blue;
+  color: gray;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer-wrapper {
+  margin: 0 auto;
+  max-width: 50rem; // 500px based off the unit sizing
+  padding: 1.3rem;  // 13px
+}

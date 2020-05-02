@@ -1,0 +1,35 @@
+.form { // this is the block in bem
+  display: flex; // this enables flexbox - in browser it should make input same height as button
+}
+
+.form__input {  // used for flexbox driven styles on the input
+  border: 1px solid grey;
+  padding: 0 1.3rem;
+  flex-grow: 1; // default is set to 0 which means leave space alone
+                // when set to 1, we are saying - take up the empty space in the container
+}
+
+.form__login { // this is the block in bem
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.form__input__login {  // used for flexbox driven styles on the input
+  border: 1px solid grey;
+  padding: 0 1.3rem;
+  max-width: 30rem;
+  flex-grow: 1; // default is set to 0 which means leave space alone
+                // when set to 1, we are saying - take up the empty space in the container
+}
+
+.form__input__register {
+     margin-left: 1.1rem;
+     padding: 1.1rem;
+     width: 30rem;
+}
+
+.form__register { // this is the block in bem
+  display: block; // this enables flexbox - in browser it should make input same height as button
+  text-align: center;
+}

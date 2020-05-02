@@ -1,0 +1,42 @@
+.single-block-item-style{
+  background: white;
+  border: 1px solid grey;
+  margin-top: .25rem;
+  padding: .75rem;
+}
+
+.single-block-item-style__login{
+  background: white;
+  border: 1px solid grey;
+  margin-top: .25rem;
+  padding: .75rem;
+  height: 5rem;
+}
+
+// BEM - block, element, modifier
+// block - the core building block for a website. Look at this app in a browser
+    // and you will see a bunch of blocks. Put the blocks together and you have a web app
+// element - things that go inside of a specific block
+    // - title block might have an author block
+// modifier - change behavior of a block or element
+
+// two rules of BEM - 1 always use classes
+    // never going to use id or element selector (o.e., (#id, p)
+
+// patern is as follows
+    // .blockClassName two underscores paternName
+    // .some-item__some-message - example of multi word use
+.single-block-item-style__message{
+  color: seagreen;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+// modifier - patern = blockName--some-modifier
+// if we want some of the messages to be a lighter font we will use a modifier
+.single-block-item-style__message--empty {
+    color: coral;
+}
